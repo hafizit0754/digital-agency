@@ -138,7 +138,7 @@ ol>li{
     width: 70%;
     margin: auto;
     padding: 20px;
-    background-color: red;
+    background-color: rgb(244, 67, 67);
     border-radius: 10px;
     margin-top: -40px;
     align-items: center;
@@ -151,8 +151,37 @@ ol>li{
 .btn-app{
     background-color: rgb(161, 176, 163);
     border: none;
-    padding: 15px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     color: purple;
     
+}
+/* Blog Section */
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+/* Card Section */
+.card{
+    width: 220px;
+    height: 300px;
+    background-color: beige;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
