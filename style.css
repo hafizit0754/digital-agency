@@ -59,8 +59,9 @@
     background-color: red;
     color: white;
 }
+
 /* service section */
-.service-container{
+.service-container {
     height: 100vh;
     background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     background-blend-mode: overlay;
@@ -72,13 +73,15 @@
     justify-content: space-around;
     padding: 20px;
 }
-.icon{
+
+.icon {
     width: 60px;
     margin-bottom: 2%;
     margin: 10px;
     padding: 5px;
 }
-.box{
+
+.box {
     width: 150px;
     height: 100px;
     padding: 50px;
@@ -88,52 +91,57 @@
     border-radius: 5px;
     box-shadow: 1px 5px;
 }
-.service-container{
+
+.service-container {
     display: flex;
     padding: 5px;
 }
-.service-description{
+
+.service-description {
     width: 50%;
     padding: 5px;
 }
 
-.first-two-box{
+.first-two-box {
     display: flex;
-    gap:3px;
+    gap: 3px;
     margin-top: 5px;
 }
 
-.author-img{
-  width: 70px;
-  height: 70;
-  border-radius:35px;
+.author-img {
+    width: 70px;
+    height: 70;
+    border-radius: 35px;
 }
-.author-container{
+
+.author-container {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.profile-container{
+.profile-container {
     display: flex;
     align-items: center;
     gap: 5px;
     border-right: 2px solid red;
     padding-right: 20px;
-    
+
 }
-ol>li{
+
+ol>li {
     padding: 2px;
 }
 
 /* appoinment section */
-.pahone-call{
+.pahone-call {
     display: flex;
     align-items: center;
     color: white;
-    
+
 }
-.appointment-container{
+
+.appointment-container {
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -144,27 +152,31 @@ ol>li{
     margin-top: -40px;
     align-items: center;
 }
-.appointment-description{
+
+.appointment-description {
     margin: 2px;
     color: white;
     font-weight: bold;
 }
-.btn-app{
+
+.btn-app {
     background-color: rgb(161, 176, 163);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     color: purple;
-    
+
 }
+
 /* Blog Section */
-.blog-title{
+.blog-title {
     color: black;
     text-align: center;
     margin: 50px;
 }
+
 /* Card Section */
-.card{
+.card {
     width: 220px;
     height: 300px;
     background-color: beige;
@@ -172,43 +184,51 @@ ol>li{
     border-radius: 5px;
 
 }
-.blog-img{
+
+.blog-img {
     width: 100%;
     border-radius: 5px;
 }
 
-.card-title{
+.card-title {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-   
+
 }
-.blog-container{
+
+.blog-container {
     width: 80%;
     margin: auto;
     background-color: white;
     padding: 10px;
 }
+
 /* Footer Section */
-.footer-container{
-    height: 80vh;
+.footer-container {
+    height: 40vh;
     background-color: black;
     color: white;
     padding-left: 5px;
 }
-.footer-title{
+
+.footer-title {
     color: white;
     padding-top: 5px;
 }
-.footer-container{
-    display:
-    
+
+.footer-container {
+    display:flex;
+    justify-content: space-between;
+
 }
 
-ul>li{
-    pad: 5px;
+ul>li {
+    pad: 10px;
+    list-style: none;
 }
