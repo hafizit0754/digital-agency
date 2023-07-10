@@ -194,11 +194,21 @@ ol>li{
     padding: 10px;
 }
 /* Footer Section */
-footer{
-    height: 50vh;
+.footer-container{
+    height: 80vh;
     background-color: black;
-    padding: 10px;
-}
-.footer-p{
     color: white;
+    padding-left: 5px;
+}
+.footer-title{
+    color: white;
+    padding-top: 5px;
+}
+.footer-container{
+    display:
+    
+}
+
+ul>li{
+    pad: 5px;
 }
