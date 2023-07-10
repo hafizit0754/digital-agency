@@ -75,10 +75,10 @@
 }
 
 .icon {
-    width: 60px;
+    width: 40px;
     margin-bottom: 2%;
-    margin: 10px;
-    padding: 5px;
+    margin-left: 2px;
+    padding: 4px;
 }
 
 .box {
@@ -220,15 +220,23 @@ ol>li {
 .footer-title {
     color: white;
     padding-top: 5px;
+    padding: 5px;
 }
 
 .footer-container {
     display:flex;
     justify-content: space-between;
-
 }
 
 ul>li {
-    pad: 10px;
+    padding: 10px;
     list-style: none;
+}
+.copy-r{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.footer-des{
+    padding-bottom: 5px;
 }
